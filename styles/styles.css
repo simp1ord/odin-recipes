@@ -1,0 +1,23 @@
+.chef {
+    height:auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.main.title {
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 50px;
+}
+
+.main.list {
+    font-size: 36px;
+    font-family:'Times New Roman', Times, sans-serif;
+    font-weight: bolder;
+    background-color: green;
+    text-align: center;
+}
