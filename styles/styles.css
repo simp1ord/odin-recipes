@@ -1,4 +1,7 @@
-.chef {
+.chef,
+.hamburger,
+.sesamechicken,
+.chickenfried {
     height:auto;
     width: 300px;
     margin-left: auto;
@@ -6,7 +9,10 @@
     display: block;
 }
 
-.main.title {
+.sesame,
+.main,
+.burger,
+.chicken {
     text-align: center;
     color: white;
     background-color: red;
@@ -14,10 +20,37 @@
     font-size: 50px;
 }
 
-.main.list {
+.listmain {
     font-size: 36px;
     font-family:'Times New Roman', Times, sans-serif;
     font-weight: bolder;
     background-color: green;
     text-align: center;
+}
+
+.description  {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: white;
+    background-color: hsl(120,70%,50%);
+    text-align: center;
+}
+
+.ingredients.list {
+    background-color: hsl(200,60%,30%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.directions.food{
+    background-color: hsl(260, 80%, 70%);
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.directions{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: hsl(260, 80%, 70%)
 }
